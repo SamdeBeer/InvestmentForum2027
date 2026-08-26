@@ -1,0 +1,19 @@
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# Vercel
+.vercel
+
+# never commit the unoptimised originals — they belong in the Regsite
+# folder on your Mac, not in the repo (one of them is 51MB)
+*.psd
+*.ai
+*.tiff

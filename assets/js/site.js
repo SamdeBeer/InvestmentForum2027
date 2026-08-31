@@ -248,7 +248,7 @@ BBusSc (Actuarial), PhDip (Actuarial), FFA, FASSA, CFP`
   const kmItems = $$(".km-item");
   const kmNum = $("#kmNum"), kmTitle = $("#kmTitle"), kmText = $("#kmText"), kmPanel = $("#kmPanel");
   // must match the stacked-layout breakpoint in style.css
-  const isMobile = () => window.matchMedia("(max-width:1180px)").matches;
+  const isMobile = () => window.matchMedia("(max-width:1080px)").matches;
 
   /* backdrop images, one per chapter — preloaded, then cross-faded on select */
   const kmSlides = $$(".sec-slide", $("#kmBg") || document.createElement("div"));

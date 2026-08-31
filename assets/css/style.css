@@ -660,12 +660,10 @@ section{ position:relative; }
 .city-card .cc-date{ font-family:var(--f-mono); font-size:12px; letter-spacing:.16em; text-transform:uppercase; color:var(--cyan); margin:0; }
 .city-card .cc-venue{ font-size:13.5px; color:var(--ink-40); margin:10px 0 0; }
 .venue-link{
-  display:inline-flex; align-items:center; gap:7px;
   color:rgba(255,255,255,.72);
   border-bottom:1px solid rgba(3,237,250,.28);
   transition:color .3s var(--ease), border-color .3s var(--ease);
 }
-.venue-link svg{ width:13px; height:13px; flex:none; color:var(--cyan); }
 .venue-link:hover{ color:var(--cyan); border-color:var(--cyan); }
 
 /* ---------- 2026 ARCHIVE ---------- */

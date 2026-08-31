@@ -305,15 +305,17 @@ h2.section-title{
   margin-bottom:24px;
 }
 /* duration is tuned to the number of logos — raise it if you add more */
-.ticker-track{ display:flex; width:max-content; animation:marquee 106s linear infinite; }
+.ticker-track{ display:flex; width:max-content; animation:marquee 150s linear infinite; }
 .ticker:hover .ticker-track{ animation-play-state:paused; }
 @keyframes marquee{ from{ transform:translate3d(0,0,0); } to{ transform:translate3d(-50%,0,0); } }
 .ticker-track ul{ display:flex; align-items:center; list-style:none; margin:0; padding:0; }
-.ticker-track li{ flex:none; padding-inline:22px; }
-/* every logo ships on an identical 840x420 canvas, optically balanced inside,
-   so one fixed display size keeps them all the same visual weight */
+.ticker-track li{ flex:none; padding-inline:26px; display:flex; align-items:center; }
+/* Each logo is tight-cropped and pre-scaled so every mark carries roughly the
+   same visual weight — its own width is set inline as --w. --k scales the
+   whole set at smaller breakpoints without disturbing that balance. */
 .ticker-track img{
-  height:92px; width:184px; object-fit:contain;
+  width:calc(var(--w) * var(--k, 1) * 1px);
+  height:auto;
   opacity:.62; filter:grayscale(1) brightness(1.7);
   transition:opacity .35s var(--ease), filter .35s var(--ease), transform .35s var(--ease);
 }
@@ -778,8 +780,8 @@ section{ position:relative; }
   .wrap{ padding-inline:22px; }
   .datebar{ font-size:10px; }
   .datebar-inner{ gap:10px; }
+  .ticker-track{ --k:.56; }
   .ticker-track li{ padding-inline:14px; }
-  .ticker-track img{ height:64px; width:128px; }
   :root{ --nav-h:76px; }
   .brand img{ height:42px; }
   .nav.solid .brand img{ height:38px; }

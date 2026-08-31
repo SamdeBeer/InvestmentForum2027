@@ -46,13 +46,13 @@ He lives in Cape Town with his wife, and two kids and when he is not reading or 
     role:    "Chief Economist",
     company: "STANLIB Asset Management",
     photo:   "kevin-lings.webp",
-    bio:     `As STANLIB Asset Management's Chief Economist, he is responsible for domestic and global economic research and forecasts. Kevin also provides input into STANLIB Asset Management's asset allocation processes and provides relevant economic research for our Fixed Income, Property and Equity teams.
+    bio:     `As STANLIB Asset Management's Chief Economist, Kevin is responsible for domestic and global economic research and forecasts. He also provides input into STANLIB Asset Management's asset allocation processes and provides relevant economic research for our Fixed Income, Property and Equity teams.
 
-He joined then-Liberty Asset Management in 2001 from J.P. Morgan Chase, where he was a member of their macroeconomic research team, providing economic research and analysis to the broader asset management industry in South Africa. Prior professional experience was built as a senior economist within the Nedcor group.
+Kevin joined then-Liberty Asset Management in 2001 from J.P. Morgan Chase, where he was a member of their macroeconomic research team, providing economic research and analysis to the broader asset management industry in South Africa. Prior professional experience was built as a senior economist within the Nedcor group.
 
 Kevin has an honours degree in economics from Wits University, specialising in international and public-sector finance. He is a widely sought-after media commentator, and has had a number of journal articles published, internationally as well as locally. From the mid-1990s to mid-2000s, Kevin lectured economics, part-time at Wits Business School.
 
-Kevin is author of a book, The Missing Pieces: Solving South Africa's Economic Puzzle.`
+Kevin is the author of a book, The Missing Pieces: Solving South Africa's Economic Puzzle.`
   },
   {
     name:    "Magda Wierzycka",
@@ -61,7 +61,7 @@ Kevin is author of a book, The Missing Pieces: Solving South Africa's Economic P
     photo:   "magda-wierzycka.webp",
     bio:     `Magda qualified as a Fellow of the Faculty of Actuaries (Edinburgh) in 1994. She has over 20 years' experience in the South African asset management industry and has published widely in the field. She has also served as a board member of the Actuarial Society of South Africa.
 
-She started her career as a product development and investments actuary at Southern Life in 1993, where she designed and managed index-tracking funds, followed by two years at Alexander Forbes as an investment consultant. In 1997 she joined Coronation Fund Managers as Head of Institutional Business and a director. While at Coronation she was responsible for growing the institutional assets under management of the company fivefold.
+Magda started her career as a product development and investments actuary at Southern Life in 1993, where she designed and managed index-tracking funds, followed by two years at Alexander Forbes as an investment consultant. In 1997 she joined Coronation Fund Managers as Head of Institutional Business and a director. While at Coronation she was responsible for growing the institutional assets under management of the company fivefold.
 
 Magda left Coronation in 2003 to start IQvest, a fund of hedge funds company. Later that year, after selling IQvest to the African Harvest group, she was appointed to the position of CEO of African Harvest. Under her stewardship the assets under management of the company grew from R10 billion in 2003 to R35 billion in 2006.
 
@@ -247,7 +247,8 @@ BBusSc (Actuarial), PhDip (Actuarial), FFA, FASSA, CFP`
   /* ---------- key subject matter ---------- */
   const kmItems = $$(".km-item");
   const kmNum = $("#kmNum"), kmTitle = $("#kmTitle"), kmText = $("#kmText"), kmPanel = $("#kmPanel");
-  const isMobile = () => window.matchMedia("(max-width:1080px)").matches;
+  // must match the stacked-layout breakpoint in style.css
+  const isMobile = () => window.matchMedia("(max-width:1180px)").matches;
 
   /* backdrop images, one per chapter — preloaded, then cross-faded on select */
   const kmSlides = $$(".sec-slide", $("#kmBg") || document.createElement("div"));

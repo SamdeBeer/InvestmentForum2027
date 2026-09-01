@@ -82,6 +82,19 @@ the web.
 
 ---
 
+## A note on `vercel.json`
+
+It sets cache headers. Two things to know if you ever edit it:
+
+- **CSS and JS must never be cached long.** `site.js` holds the speaker
+  bios and `style.css` holds every style rule, so they carry content, not
+  just presentation. They are set to `max-age=0, must-revalidate` on purpose.
+  Images cache for an hour.
+- **Do not add comments.** JSON has no comment syntax and Vercel validates
+  `vercel.json` against a strict schema — any unrecognised property fails the
+  build immediately, and the site silently stays on the previous deployment.
+  Explanations belong here, not in the file.
+
 ## Structure
 
 ```

@@ -2,14 +2,12 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "headers": [
     {
-      "comment": "CSS and JS carry content (speaker bios, styling) — they must never go stale",
       "source": "/assets/(css|js)/(.*)",
       "headers": [
         { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
       ]
     },
     {
-      "comment": "Images are stable; cache them, but revalidate rather than serving stale for a day",
       "source": "/assets/(brand|hero|sponsors|speakers|gallery)/(.*)",
       "headers": [
         {

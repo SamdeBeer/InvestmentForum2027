@@ -733,6 +733,34 @@ section{ position:relative; }
 .plb-nav svg{ width:20px; height:20px; }
 .plb .lb-close{ position:absolute; right:20px; top:20px; }
 
+/* ---------- CPD / FPI ACCREDITATION ---------- */
+.cpd{ background:var(--navy-deep); padding:clamp(46px,5vw,68px) 0; }
+.cpd-inner{
+  display:grid; grid-template-columns:auto minmax(0,1fr);
+  gap:clamp(26px,4vw,52px); align-items:start;
+}
+/* the FPI mark is navy/red/white and made for light backgrounds — a white
+   panel keeps it legible and unaltered rather than recolouring someone
+   else's accreditation logo */
+.cpd-badge{
+  background:#fff; border-radius:4px;
+  padding:16px 20px; flex:none;
+  display:flex; align-items:center; justify-content:center;
+}
+.cpd-badge img{ width:240px; height:auto; display:block; }
+.cpd-head{
+  font-family:var(--f-mono); font-size:11px; letter-spacing:.24em;
+  text-transform:uppercase; color:var(--cyan);
+  margin:0 0 16px; font-weight:400;
+}
+.cpd-copy p{
+  margin:0 0 13px;
+  font-size:13.5px; line-height:1.7;
+  color:rgba(255,255,255,.62);
+  max-width:78ch;
+}
+.cpd-copy p:last-child{ margin-bottom:0; }
+
 /* ---------- FOOTER ---------- */
 .footer{ background:var(--navy-deep); padding:56px 0 44px; border-top:1px solid rgba(255,255,255,.08); }
 .footer .wrap{ display:flex; align-items:center; justify-content:space-between; gap:26px; flex-wrap:wrap; }
@@ -760,6 +788,8 @@ section{ position:relative; }
   .nav .cta{ display:none; }
   .burger{ display:flex; }
   .about-grid,.km,.contact-grid{ grid-template-columns:1fr; }
+  .cpd-inner{ grid-template-columns:1fr; }
+  .cpd-badge{ justify-self:start; }
   .km-panel{ display:none; }
   .km-body{ display:block; overflow:hidden; height:0; transition:height .45s var(--ease); }
   .km-body-inner{ padding:0 0 26px; color:rgba(255,255,255,.8); }

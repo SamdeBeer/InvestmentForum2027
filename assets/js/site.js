@@ -483,73 +483,27 @@ BBusSc (Actuarial), PhDip (Actuarial), FFA, FASSA, CFP`
     const handle = setInterval(tick, 1000);
   });
 
-  /* ---------- 2026 photo archive ---------- */
-  const shots = $$("#gallery .shot");
-  if (shots.length) {
-    const plb = $("#plb"), plbImg = $("#plbImg"), plbCount = $("#plbCount");
-    let pIdx = 0, pLastFocus = null;
+  /* ---------- 2026 highlights video ----------
+     Click-to-play facade. The Vimeo player is only inserted once the visitor
+     presses play, so no third-party request or cookie occurs on page load. */
+  const playBtn = $(".video-play");
+  if (playBtn) {
+    playBtn.addEventListener("click", () => {
+      const id = playBtn.dataset.vimeo;
+      const frame = document.createElement("iframe");
+      frame.className = "video-frame";
+      frame.src = `https://player.vimeo.com/video/${id}?autoplay=1&dnt=1&title=0&byline=0&portrait=0`;
+      frame.title = "The Investment Forum 2026 highlights";
+      frame.allow = "autoplay; fullscreen; picture-in-picture";
+      frame.referrerPolicy = "strict-origin-when-cross-origin";
+      frame.setAttribute("allowfullscreen", "");
+      playBtn.replaceWith(frame);
+      frame.focus();
 
-    const ZOOM = `<span class="zoom" aria-hidden="true">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round">
-          <circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6M11 8.4v5.2M8.4 11h5.2"/>
-        </svg></span>`;
-
-    shots.forEach((s, i) => {
-      s.insertAdjacentHTML("beforeend", ZOOM);
-      s.setAttribute("aria-label", `View photo ${i + 1} of ${shots.length}`);
-      s.addEventListener("click", () => openPhoto(i));
-      // warm the full-size file on hover so the lightbox opens instantly
-      s.addEventListener("mouseenter", () => { new Image().src = s.dataset.full; }, { once: true });
-    });
-
-    function showPhoto(i) {
-      pIdx = (i + shots.length) % shots.length;
-      const s = shots[pIdx];
-      plbImg.src = s.dataset.full;
-      plbImg.alt = $("img", s).alt;
-      plbCount.textContent = `${pIdx + 1} / ${shots.length}`;
-      // preload neighbours
-      [pIdx + 1, pIdx - 1].forEach(n => {
-        const t = shots[(n + shots.length) % shots.length];
-        if (t) new Image().src = t.dataset.full;
-      });
-    }
-    function openPhoto(i) {
-      showPhoto(i);
-      pLastFocus = document.activeElement;
-      plb.hidden = false;
-      requestAnimationFrame(() => plb.classList.add("open"));
-      document.body.style.overflow = "hidden";
-      $("#plbClose").focus();
-    }
-    function closePhoto() {
-      plb.classList.remove("open");
-      document.body.style.overflow = "";
-      setTimeout(() => { plb.hidden = true; plbImg.src = ""; }, 360);
-      if (pLastFocus) pLastFocus.focus();
-    }
-
-    $("#plbClose").addEventListener("click", closePhoto);
-    $("#plbPrev").addEventListener("click", () => showPhoto(pIdx - 1));
-    $("#plbNext").addEventListener("click", () => showPhoto(pIdx + 1));
-    plb.addEventListener("click", e => { if (e.target === plb || e.target.classList.contains("plb-stage")) closePhoto(); });
-
-    document.addEventListener("keydown", e => {
-      if (plb.hidden) return;
-      if (e.key === "Escape")     closePhoto();
-      if (e.key === "ArrowRight") showPhoto(pIdx + 1);
-      if (e.key === "ArrowLeft")  showPhoto(pIdx - 1);
-    });
-
-    // swipe on touch devices
-    let sx = null;
-    plb.addEventListener("touchstart", e => { sx = e.changedTouches[0].clientX; }, { passive: true });
-    plb.addEventListener("touchend", e => {
-      if (sx === null) return;
-      const dx = e.changedTouches[0].clientX - sx;
-      if (Math.abs(dx) > 45) showPhoto(pIdx + (dx < 0 ? 1 : -1));
-      sx = null;
-    }, { passive: true });
+      if (typeof window.gtag === "function") {
+        window.gtag("event", "video_play", { video_title: "Investment Forum 2026 highlights" });
+      }
+    }, { once: true });
   }
 
   /* ---------- scroll reveals ---------- */

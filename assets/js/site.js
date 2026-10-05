@@ -29,6 +29,30 @@ const REGISTRATION_SOON = "Registration Opens Soon";
    by surname automatically, so just add new people at the end.  */
 const SPEAKERS = [
   {
+    name:    "Annika Larsen",
+    role:    "Broadcast Journalist",
+    company: "",
+    photo:   "annika-larsen.webp",
+    bio:     `Annika is an award winning broadcast journalist based in South Africa. With a career in journalism spanning 25 years, she has been a live 24 hour breaking news tv reporter and anchor on the 8pm news for eNCA. Annika initially worked in radio as a reporter at Eyewitness News for 702 and Cape Talk, before moving into television in 2005.
+
+She has enjoyed positions as a presenter both at Carte Blanche and currently has her own show called, 'My Guest Tonight with Annika Larsen'. This programme is broadcast across both eTV and eNCA and has featured guests including Chief Justice Raymond Zondo, SARB Governor Lesetja Kganyago, Caster Semenya and former Eskom CEO, Andre de Ruyter.
+
+Outside of her broadcasting career, Annika is a Fellow of the prestigious USA State Department International Leadership Programme for emerging Foreign Leaders, as well as a Fellow of Duke University NC. She has served on the Executive Committee of Parliament's Press Gallery Association. Beyond these roles, Annika regularly hosts and moderates discussions in the corporate and NGO sectors and trains business leaders on how to interface effectively with the media.`
+  },
+  {
+    name:    "Prof Anton du Plessis",
+    role:    "Deputy National Director of Public Prosecutions",
+    company: "South Africa",
+    photo:   "anton-du-plessis.webp",
+    bio:     `Anton is the Deputy National Director of Public Prosecutions in South Africa. Anton previously worked as the Managing Director of the ISS and Head of the Transnational Threats and International Crime Division. He has worked on human security, international criminal justice and rule of law issues in over 20 African countries, with a focus on delivering training and technical assistance to senior law enforcement and criminal justice officials.
+
+Anton has three law degrees and is an admitted advocate of the High Court of South Africa with more than 13 years of legal and management experience. He has worked as a consultant and expert advisor to various UN entities and other intergovernmental organisations, including the UN's Counter-Terrorism Implementation Task Force, and is a member of the World Economic Forum's Global Agenda Council on Terrorism.
+
+Before assuming his current positions, Anton was head of the International Crime in Africa Programme (ICAP) at the ISS. Prior to joining the ISS to found ICAP in early 2008, Anton was a criminal justice and counter-terrorism legal expert for the United Nations Office on Drugs and Crime (UNODC) in Vienna. Before that he was head of the Crime and Justice Programme at the ISS where he worked on a broad range of crime and criminal justice policy, research and technical assistance projects.
+
+Anton has also worked as a Senior State Advocate at the National Prosecuting Authority of South Africa where he specialised in the prosecution of serious and violent offences, including rape and gang-related crimes. Anton has published numerous articles, book chapters and training guides, and is the co-author of Counter-Terrorism Law and Practice: A Practitioners' Handbook published by Oxford University Press.`
+  },
+  {
     name:    "Pierre Du Plessis",
     role:    "Founder",
     company: "Be Brave",
@@ -333,18 +357,29 @@ BBusSc (Actuarial), PhDip (Actuarial), FFA, FASSA, CFP`
 
   const grid = $("#speakerGrid");
 
-  /* Alphabetical by surname. Treats the last word of the name as the
-     surname, and keeps compound surnames ("Du Plessis") together by
-     ignoring the given name only. TBA slots always sort to the end. */
-  const surname = sp => {
-    if (!sp.name) return "￿";
-    const parts = sp.name.trim().split(/\s+/);
-    return parts.slice(1).join(" ").toLocaleLowerCase("en-ZA") || parts[0].toLocaleLowerCase("en-ZA");
-  };
-  const ordered = SPEAKERS.slice().sort((a, b) =>
-    surname(a).localeCompare(surname(b), "en-ZA"));
+  /* Alphabetical by surname. Strips any honorific first ("Prof Anton du
+     Plessis" must sort under D, not P), keeps compound surnames together,
+     and falls back to the given name when two people share a surname.
+     TBA slots always sort to the end. */
+  const TITLES = /^(prof|professor|dr|doctor|adv|advocate|mr|mrs|ms|miss|sir)\.?$/i;
 
-  grid.style.setProperty("--cols", Math.min(Math.max(ordered.length, 1), 4));
+  const nameParts = sp => {
+    if (!sp.name) return { first: "￿", last: "￿" };
+    const parts = sp.name.trim().split(/\s+/).filter(p => !TITLES.test(p));
+    return {
+      first: (parts[0] || "").toLocaleLowerCase("en-ZA"),
+      last:  (parts.slice(1).join(" ") || parts[0] || "").toLocaleLowerCase("en-ZA")
+    };
+  };
+  const ordered = SPEAKERS.slice().sort((a, b) => {
+    const A = nameParts(a), B = nameParts(b);
+    return A.last.localeCompare(B.last, "en-ZA")
+        || A.first.localeCompare(B.first, "en-ZA");
+  });
+
+  // up to 5 across so a five-person line-up fills one row rather than
+  // leaving a single orphan card below
+  grid.style.setProperty("--cols", Math.min(Math.max(ordered.length, 1), 5));
 
   ordered.forEach((sp, i) => {
     // { tba: true } renders a muted, non-clickable "to be announced" card
@@ -371,7 +406,7 @@ BBusSc (Actuarial), PhDip (Actuarial), FFA, FASSA, CFP`
       </span>
       <span class="speaker-meta">
         <span class="nm">${sp.name}</span>
-        <span class="co">${sp.role ? sp.role + ", " : ""}${sp.company}</span>
+        <span class="co">${[sp.role, sp.company].filter(Boolean).join(", ")}</span>
       </span>`;
     btn.addEventListener("click", () => openLB(i));
     grid.appendChild(btn);

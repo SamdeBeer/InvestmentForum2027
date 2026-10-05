@@ -516,13 +516,17 @@ section{ position:relative; }
 }
 .speaker{
   position:relative; text-align:left; width:100%;
+  /* a <button> centres its own contents, so cards whose subtitle wraps to a
+     different number of lines pushed their photo down by a different amount.
+     Flex-column anchors every photo to the top of its card. */
+  display:flex; flex-direction:column;
   border:1px solid rgba(255,255,255,.1); border-radius:3px; overflow:hidden;
   background:rgba(255,255,255,.02);
   transition:border-color .45s var(--ease), transform .45s var(--ease), background .45s var(--ease);
 }
 .speaker:hover{ border-color:var(--rule); transform:translateY(-5px); background:rgba(3,237,250,.045); }
 .speaker-photo{
-  position:relative; aspect-ratio:1/1.14; overflow:hidden;
+  position:relative; aspect-ratio:1/1.14; overflow:hidden; flex:none;
   background:linear-gradient(155deg,#1b2a72,#0d1440);
   display:flex; align-items:flex-end; justify-content:center;
 }
@@ -540,7 +544,7 @@ section{ position:relative; }
   content:""; position:absolute; inset:0;
   background:linear-gradient(180deg,transparent 42%,rgba(6,9,34,.86));
 }
-.speaker-meta{ position:relative; z-index:1; padding:18px 20px 20px; }
+.speaker-meta{ position:relative; z-index:1; padding:18px 20px 20px; flex:1 1 auto; }
 .speaker-meta .nm{ display:block; font-size:1.05rem; font-weight:700; letter-spacing:-.015em; line-height:1.25; }
 .speaker-meta .co{ display:block; font-family:var(--f-mono); font-size:10.5px; letter-spacing:.17em; text-transform:uppercase; color:var(--cyan); margin-top:7px; }
 .speaker-more{

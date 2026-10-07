@@ -53,7 +53,7 @@ With more than 25 years' experience across government, multilateral institutions
 Anton is an Advocate of the High Court of South Africa, holds three law degrees, and has completed executive leadership programmes at Harvard and Oxford. He is a World Economic Forum Young Global Leader, a member of the WEF Global Future Council on Governance, and co-author of the Oxford University Press Counter-Terrorism Law Handbook.`
   },
   {
-    name:    "Pierre Du Plessis",
+    name:    "Pierre du Plessis",
     role:    "Founder",
     company: "Be Brave",
     photo:   "pierre-du-plessis.webp",

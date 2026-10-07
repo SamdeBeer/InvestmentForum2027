@@ -41,16 +41,16 @@ Outside of her broadcasting career, Annika is a Fellow of the prestigious USA St
   },
   {
     name:    "Prof Anton du Plessis",
-    role:    "Deputy National Director of Public Prosecutions",
-    company: "South Africa",
+    role:    "Chief Executive Officer",
+    company: "Business Against Crime South Africa",
     photo:   "anton-du-plessis.webp",
-    bio:     `Anton is the Deputy National Director of Public Prosecutions in South Africa. Anton previously worked as the Managing Director of the ISS and Head of the Transnational Threats and International Crime Division. He has worked on human security, international criminal justice and rule of law issues in over 20 African countries, with a focus on delivering training and technical assistance to senior law enforcement and criminal justice officials.
+    bio:     `Anton du Plessis is CEO of Business Against Crime South Africa and a globally recognised criminal justice and prosecutorial reform leader. A former Deputy National Director of Public Prosecutions, he has held senior executive roles in South Africa's National Prosecuting Authority, the United Nations, and the Institute for Security Studies (ISS).
 
-Anton has three law degrees and is an admitted advocate of the High Court of South Africa with more than 13 years of legal and management experience. He has worked as a consultant and expert advisor to various UN entities and other intergovernmental organisations, including the UN's Counter-Terrorism Implementation Task Force, and is a member of the World Economic Forum's Global Agenda Council on Terrorism.
+His international roles include serving as Legal and Criminal Justice Coordinator at the United Nations Security Council Counter-Terrorism Executive Directorate in New York, and as a Criminal Justice Expert with the UN Office on Drugs and Crime in Vienna. He also served as Executive Director of the ISS, Africa's leading human security policy institute, where he led strategy, partnerships, fundraising and continental policy engagement.
 
-Before assuming his current positions, Anton was head of the International Crime in Africa Programme (ICAP) at the ISS. Prior to joining the ISS to found ICAP in early 2008, Anton was a criminal justice and counter-terrorism legal expert for the United Nations Office on Drugs and Crime (UNODC) in Vienna. Before that he was head of the Crime and Justice Programme at the ISS where he worked on a broad range of crime and criminal justice policy, research and technical assistance projects.
+With more than 25 years' experience across government, multilateral institutions and civil society, Anton has worked in over 20 African countries on complex crime, counter-terrorism, organised crime, prosecutorial reform and security-sector transformation. He has advised governments, Attorneys General, UN bodies and international organisations, and has contributed to major policy, legal and institutional reforms across Africa and globally.
 
-Anton has also worked as a Senior State Advocate at the National Prosecuting Authority of South Africa where he specialised in the prosecution of serious and violent offences, including rape and gang-related crimes. Anton has published numerous articles, book chapters and training guides, and is the co-author of Counter-Terrorism Law and Practice: A Practitioners' Handbook published by Oxford University Press.`
+Anton is an Advocate of the High Court of South Africa, holds three law degrees, and has completed executive leadership programmes at Harvard and Oxford. He is a World Economic Forum Young Global Leader, a member of the WEF Global Future Council on Governance, and co-author of the Oxford University Press Counter-Terrorism Law Handbook.`
   },
   {
     name:    "Pierre Du Plessis",

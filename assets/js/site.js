@@ -79,6 +79,19 @@ Kevin has an honours degree in economics from Wits University, specialising in i
 Kevin is the author of a book, The Missing Pieces: Solving South Africa's Economic Puzzle.`
   },
   {
+    name:    "Adrian D. Saville",
+    role:    "Professor of Economics, Finance & Strategy",
+    company: "Gordon Institute of Business Science",
+    photo:   "adrian-saville.webp",
+    bio:     `Adrian holds a Professorship in Economics, Finance & Strategy at the Gordon Institute of Business Science (GIBS), where he is the Founding Director of the Centre for African Management and Markets (CAMM). He is the author of the Visa Africa Integration Index, the Investec-GIBS Savings Index, and RMB's Where to Invest in Africa Report. In 2025 Adrian co-authored It's About Tyme: Banking Beyond Borders, a book chronicling the rise of one of the world's most innovative digital banking groups. Adrian has worked in many markets, from Brazil to Singapore, and since 2017 he has chaired the investment committee of MeTTa Capital's venture capital fund.
+
+Alongside his academic career, Adrian established and grew an investment firm which was sold to a listed entity in 2017. In 2021 he joined a family investment office to launch their multi-asset investment portfolio alongside a special-opportunities portfolio. In 2023 Adrian returned to his entrepreneurial roots to build Boundless World, an advisory firm focused on capital markets, business model innovation, and growth strategy.
+
+Adrian holds a Bachelor of Arts (Honours) (cum laude), MCom (cum laude) and a PhD (Economics) for which he was awarded the Economics Society of South Africa's Founders Medal. He is a UNESCO laureate, a matriculant of Linacre College (Oxford) and has completed programmes in Capital Markets at New York's Columbia University; competitive strategy at Harvard Business School in Boston; Machine Learning at Stanford; Financial Markets at Yale; and Game Theory at the University of British Columbia.
+
+Adrian is a member of various industry bodies, including the Academy of International Business, the Strategic Management Society, Investment Analysts Society, Economic Society of South Africa, Economic History Society of Southern Africa and Manual of Ideas (Global).`
+  },
+  {
     name:    "Magda Wierzycka",
     role:    "Chief Executive Officer",
     company: "Sygnia Group",
@@ -363,12 +376,17 @@ BBusSc (Actuarial), PhDip (Actuarial), FFA, FASSA, CFP`
      TBA slots always sort to the end. */
   const TITLES = /^(prof|professor|dr|doctor|adv|advocate|mr|mrs|ms|miss|sir)\.?$/i;
 
+  const INITIAL = /^[A-Za-z]\.?$/;          // a middle initial is not a surname
+
   const nameParts = sp => {
     if (!sp.name) return { first: "￿", last: "￿" };
-    const parts = sp.name.trim().split(/\s+/).filter(p => !TITLES.test(p));
+    let parts = sp.name.trim().split(/\s+/).filter(p => !TITLES.test(p));
+    const first = parts[0] || "";
+    // drop middle initials so "Adrian D. Saville" files under S, not D
+    const rest = parts.slice(1).filter(p => !INITIAL.test(p));
     return {
-      first: (parts[0] || "").toLocaleLowerCase("en-ZA"),
-      last:  (parts.slice(1).join(" ") || parts[0] || "").toLocaleLowerCase("en-ZA")
+      first: first.toLocaleLowerCase("en-ZA"),
+      last:  (rest.join(" ") || first).toLocaleLowerCase("en-ZA")
     };
   };
   const ordered = SPEAKERS.slice().sort((a, b) => {
@@ -377,9 +395,15 @@ BBusSc (Actuarial), PhDip (Actuarial), FFA, FASSA, CFP`
         || A.first.localeCompare(B.first, "en-ZA");
   });
 
-  // up to 5 across so a five-person line-up fills one row rather than
-  // leaving a single orphan card below
-  grid.style.setProperty("--cols", Math.min(Math.max(ordered.length, 1), 5));
+  /* Choose a column count that divides the line-up evenly where possible, so
+     no single card is left orphaned on its own row. Six goes 3 x 2 rather
+     than 5 + 1; eight goes 4 x 2; ten goes 5 x 2. */
+  const columnsFor = n => {
+    if (n <= 5) return Math.max(n, 1);
+    for (const c of [5, 4, 3]) if (n % c === 0) return c;
+    return 4;
+  };
+  grid.style.setProperty("--cols", columnsFor(ordered.length));
 
   ordered.forEach((sp, i) => {
     // { tba: true } renders a muted, non-clickable "to be announced" card

@@ -381,10 +381,10 @@ BBusSc (Actuarial), PhDip (Actuarial), FFA, FASSA, CFP`
 
   const grid = $("#speakerGrid");
 
-  /* Alphabetical by surname. Strips any honorific first ("Prof Anton du
-     Plessis" must sort under D, not P), keeps compound surnames together,
-     and falls back to the given name when two people share a surname.
-     TBA slots always sort to the end. */
+  /* Alphabetical by first name, as the names read on the cards. Honorifics
+     are stripped first so "Prof Anton du Plessis" sorts on Anton, not Prof.
+     Falls back to the surname if two people share a first name. TBA slots
+     always sort to the end. */
   const TITLES = /^(prof|professor|dr|doctor|adv|advocate|mr|mrs|ms|miss|sir)\.?$/i;
 
   const INITIAL = /^[A-Za-z]\.?$/;          // a middle initial is not a surname
@@ -402,8 +402,8 @@ BBusSc (Actuarial), PhDip (Actuarial), FFA, FASSA, CFP`
   };
   const ordered = SPEAKERS.slice().sort((a, b) => {
     const A = nameParts(a), B = nameParts(b);
-    return A.last.localeCompare(B.last, "en-ZA")
-        || A.first.localeCompare(B.first, "en-ZA");
+    return A.first.localeCompare(B.first, "en-ZA")
+        || A.last.localeCompare(B.last, "en-ZA");
   });
 
   /* Choose a column count that divides the line-up evenly where possible, so

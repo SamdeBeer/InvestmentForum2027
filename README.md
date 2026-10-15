@@ -86,10 +86,13 @@ the web.
 
 It sets cache headers. Two things to know if you ever edit it:
 
-- **CSS and JS must never be cached long.** `site.js` holds the speaker
-  bios and `style.css` holds every style rule, so they carry content, not
-  just presentation. They are set to `max-age=0, must-revalidate` on purpose.
-  Images cache for an hour.
+- **Nothing under `/assets/` is cached.** Everything there is set to
+  `max-age=0, must-revalidate` on purpose. `site.js` holds the speaker bios,
+  `style.css` holds every style rule, and the images are replaced in place —
+  speaker portraits and sponsor logos keep the same filename when they
+  change. Caching any of it means an edit appears to have silently failed.
+  Browsers still send a conditional request and get a cheap `304 Not
+  Modified` when a file is unchanged, so the cost is small.
 - **Do not add comments.** JSON has no comment syntax and Vercel validates
   `vercel.json` against a strict schema — any unrecognised property fails the
   build immediately, and the site silently stays on the previous deployment.

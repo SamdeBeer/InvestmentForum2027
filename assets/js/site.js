@@ -79,6 +79,17 @@ Kevin has an honours degree in economics from Wits University, specialising in i
 Kevin is the author of a book, The Missing Pieces: Solving South Africa's Economic Puzzle.`
   },
   {
+    name:    "Bheki Mahlobo",
+    role:    "Economist & Partner",
+    company: "Frans Cronje Private Clients",
+    photo:   "bheki-mahlobo.webp",
+    bio:     `Bheki is an Economist and Partner at Frans Cronje Private Clients (FCPC), a Director at the Social Research Foundation, and Economics & Policy Editor at The Common Sense. Bheki's career began at the Centre for Risk Analysis before he moved into financial markets analysis at ETM Analytics.
+
+He specialises in economic and financial markets research, political trend analysis, and scenario planning, with a particular focus on South Africa's macro outlook, currency markets, and political risk. He has briefed scores of companies on South Africa's long-term economic, markets, and political outlook and has produced an extensive cross-section of client notes and research reports. Bheki co-authored a chapter of the book The Future of Cities with Professor Joel Kotkin of the American Enterprise Institute.
+
+He was raised in the rural Eastern Cape village of Lupapasi and later moved to Johannesburg for his schooling. He holds a Master of Science degree in Economics from Chapman University in California, United States, and is now based full-time in South Africa.`
+  },
+  {
     name:    "Adrian D. Saville",
     role:    "Professor of Economics, Finance & Strategy",
     company: "Gordon Institute of Business Science",

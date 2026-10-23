@@ -90,7 +90,7 @@ He specialises in economic and financial markets research, political trend analy
 He was raised in the rural Eastern Cape village of Lupapasi and later moved to Johannesburg for his schooling. He holds a Master of Science degree in Economics from Chapman University in California, United States, and is now based full-time in South Africa.`
   },
   {
-    name:    "Adrian D. Saville",
+    name:    "Prof Adrian D. Saville",
     role:    "Professor of Economics, Finance & Strategy",
     company: "Gordon Institute of Business Science",
     photo:   "adrian-saville.webp",
@@ -101,6 +101,57 @@ Alongside his academic career, Adrian established and grew an investment firm wh
 Adrian holds a Bachelor of Arts (Honours) (cum laude), MCom (cum laude) and a PhD (Economics) for which he was awarded the Economics Society of South Africa's Founders Medal. He is a UNESCO laureate, a matriculant of Linacre College (Oxford) and has completed programmes in Capital Markets at New York's Columbia University; competitive strategy at Harvard Business School in Boston; Machine Learning at Stanford; Financial Markets at Yale; and Game Theory at the University of British Columbia.
 
 Adrian is a member of various industry bodies, including the Academy of International Business, the Strategic Management Society, Investment Analysts Society, Economic Society of South Africa, Economic History Society of Southern Africa and Manual of Ideas (Global).`
+  },
+  {
+    name:    "Brandon Zietsman",
+    role:    "Chief Executive Officer",
+    company: "PortfolioMetrix",
+    photo:   "brandon-zietsman.webp",
+    bio:     `Brandon is a key figure in financial services with a strong track record in innovation and strategic leadership. He began his career at Investec, before leading product development at RMB Fund Managers. After a two-year tenure at an equity derivative boutique, he returned to RMB Asset Management as head of quantitative research and later served as CEO of RMB Unit Trusts. In 2008, he joined Barclays, leading Absa Wealth's Investment and Product Office.
+
+In 2010, Brandon founded PortfolioMetrix, a global investment management and technology partner focused on empowering high-performing advisers and specialist multi-managers.
+
+Brandon holds the following qualifications: MSc (Global Challenges) (Dist.), BCom (Accounting & Law), HDip (Tax), IMC, CAIA, CFA.`
+  },
+  {
+    name:    "Etienne Roux",
+    role:    "Property Portfolio Manager & Equity Analyst",
+    company: "Truffle",
+    photo:   "etienne-roux.webp",
+    bio:     `Etienne joined Truffle in 2013 as an Equity Analyst and currently covers various sectors, including Property, Healthcare, Diversified Industrials, Gold, and various mid-caps. Etienne also has portfolio management responsibilities for Truffle property mandates.
+
+He began his career at Greenwoods Chartered Accountants where he gained invaluable experience in various sectors, including Manufacturing, Property, and Industrials.`
+  },
+  {
+    name:    "Holger Wehner",
+    role:    "Managing Director, Global Head of Product Specialists",
+    company: "Allianz Global Investors",
+    photo:   "holger-wehner.webp",
+    bio:     `Holger leads the Global Product Specialists and Editorial function at Allianz Global Investors. Together, the teams combine investment expertise, product knowledge and client insight to position AllianzGI's global investment capabilities for success. Working closely with investment professionals, distribution and clients, they translate investment insights into clear, compelling messages and support products throughout their lifecycle.
+
+Holger joined AllianzGI in 2007 after more than six years at WestLB Mellon Asset Management, where he was a product specialist for equity and convertible strategies. Since then, he has held a series of leadership roles, leading the Equity Product Specialists team before taking responsibility for the firm's Global Product Specialist teams across Equity, Fixed Income and Multi Asset.
+
+Holger holds a master's degree in economics from Justus-Liebig University Giessen, Germany, and is both a CFA charterholder and a Chartered Alternative Investment Analyst (CAIA).`
+  },
+  {
+    name:    "Iain Power",
+    role:    "Chief Investment Officer and Director",
+    company: "Truffle",
+    photo:   "iain-power.webp",
+    bio:     `Iain leads the investment team and plays a key role in the strategic direction of the business. He has been part of the Truffle team since 2010, when he joined to work with the founders as a senior portfolio manager.
+
+Iain previously worked at RMB Asset Management where he held various positions, including serving as a member of the Board of Directors and the Management Board, and fulfilling the role of a senior investment professional in the equity team.
+
+Iain was keen to join a smaller, owner-managed asset management business where he could be part of building a larger concern, and has been key to Truffle's growth over the last 15 years.`
+  },
+  {
+    name:    "Philip Bradford",
+    role:    "Chief Investment Officer SA",
+    company: "PortfolioMetrix",
+    photo:   "philip-bradford.webp",
+    bio:     `Philip is a multiple-award winning Fund Manager with over 25 years' experience. He is the Chief Investment Officer (CIO) at PMX Asset Management and Fund Manager of several fixed income and multi-asset class funds.
+
+He began his career at Investec in 1999 in asset management and as bond and interest rate trader. Prior to joining PMX, he also held CIO roles at two asset management firms. Philip has won numerous fund management accolades including 6 Raging Bull awards.`
   },
   {
     name:    "Magda Wierzycka",

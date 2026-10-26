@@ -40,7 +40,7 @@ She has enjoyed positions as a presenter both at Carte Blanche and currently has
 Outside of her broadcasting career, Annika is a Fellow of the prestigious USA State Department International Leadership Programme for emerging Foreign Leaders, as well as a Fellow of Duke University NC. She has served on the Executive Committee of Parliament's Press Gallery Association. Beyond these roles, Annika regularly hosts and moderates discussions in the corporate and NGO sectors and trains business leaders on how to interface effectively with the media.`
   },
   {
-    name:    "Prof Anton du Plessis",
+    name:    "Prof. Anton du Plessis",
     role:    "Chief Executive Officer",
     company: "Business Against Crime South Africa",
     photo:   "anton-du-plessis.webp",
@@ -90,7 +90,7 @@ He specialises in economic and financial markets research, political trend analy
 He was raised in the rural Eastern Cape village of Lupapasi and later moved to Johannesburg for his schooling. He holds a Master of Science degree in Economics from Chapman University in California, United States, and is now based full-time in South Africa.`
   },
   {
-    name:    "Prof Adrian D. Saville",
+    name:    "Prof. Adrian D. Saville",
     role:    "Professor of Economics, Finance & Strategy",
     company: "Gordon Institute of Business Science",
     photo:   "adrian-saville.webp",
@@ -433,7 +433,7 @@ BBusSc (Actuarial), PhDip (Actuarial), FFA, FASSA, CFP`
   const grid = $("#speakerGrid");
 
   /* Alphabetical by first name, as the names read on the cards. Honorifics
-     are stripped first so "Prof Anton du Plessis" sorts on Anton, not Prof.
+     are stripped first so "Prof. Anton du Plessis" sorts on Anton, not Prof.
      Falls back to the surname if two people share a first name. TBA slots
      always sort to the end. */
   const TITLES = /^(prof|professor|dr|doctor|adv|advocate|mr|mrs|ms|miss|sir)\.?$/i;

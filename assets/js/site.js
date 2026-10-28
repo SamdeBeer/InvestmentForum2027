@@ -167,6 +167,35 @@ Magda left Coronation in 2003 to start IQvest, a fund of hedge funds company. La
 After negotiating the sale of African Harvest Fund Managers to Cadiz Financial Services in 2006, she led the management buy-out of the remainder of the African Harvest group which resulted in the formation of Sygnia.
 
 BBusSc (Actuarial), PhDip (Actuarial), FFA, FASSA, CFP`
+  },
+  {
+    name:    "Lourens Coetzee",
+    role:    "Investment Professional",
+    company: "Marriott Investment Managers",
+    photo:   "lourens-coetzee.webp",
+    bio:     `Lourens has been an Investment Professional in the investment team since 2007 and is a member of Marriott's Investment Committee. Having played a major role in refining the investment process over many years, Lourens has a thorough and in-depth understanding of the firm's investment philosophy, which is primarily focused on quality investing.
+
+Marriott's investment style identifies high-quality securities that also generate reliable income, allowing the firm to provide solutions for clients seeking more predictable investment outcomes.`
+  },
+  {
+    name:    "Scott Cooper",
+    role:    "Investment Professional",
+    company: "Marriott Investment Managers",
+    photo:   "scott-cooper.webp",
+    bio:     `Scott joined Marriott in 2014 as a Business Analyst, gaining broad experience across the business before transitioning into investment management in 2020. More recently, he has played a key role in developing Marriott's AI-enhanced investment research process, which builds on the firm's established investment philosophy to improve the depth, consistency and efficiency of fundamental company analysis.
+
+Born and raised in Ireland, and having worked in London for three years before joining Marriott, Scott brings an international perspective to investment management, along with a keen interest in offshore equities and technological innovation. He holds a BSc in Mathematics from Durham University and is a CFA Charterholder.`
+  },
+  {
+    name:    "Rob Spanjaard",
+    role:    "Chief Executive Officer & Chief Investment Officer",
+    company: "Rezco Asset Management",
+    photo:   "rob-spanjaard.webp",
+    bio:     `Rob is the CEO and Chief Investment Officer of Rezco Asset Management. During his tenure, Rezco has achieved a market-leading investment track record and won eight best fund awards in major categories.
+
+Rob is a graduate of UCT, during which time he won the national Financial Mail reader stock picking competition. He then worked as a portfolio manager for Momentum Life, before leaving to co-lead a private equity deal and subsequently buying into Rezco and returning to investment management.
+
+Rob's lifelong fascination with companies, markets and investing has led to refined investing principles that he has infused into the Rezco team, to create a culture of innovative investment thinking.`
   }
 ];
 

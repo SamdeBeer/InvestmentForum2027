@@ -16,7 +16,7 @@
 const REGISTER_URL     = "https://register.thecollaborative.co.za/investment-forum/";
 const REGISTRATION_SOON = "Registration Opens Soon";
 
-/* ---------- 2. KEYNOTE SPEAKERS --------------------------
+/* ---------- 2. SPEAKERS --------------------------
    Drop headshots into  assets/speakers/  and reference the
    filename in `photo`. Leave photo as "" for a placeholder.
    Blue-graded cut-outs on a transparent background work best

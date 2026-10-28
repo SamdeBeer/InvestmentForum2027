@@ -130,6 +130,6 @@ of them, resize first — the hero images should be no more than 2400px wide.
   that switched on get the site with no drift, no marquee and no scroll reveals.
 - **Sponsor ticker** pauses on hover so people can read a logo.
 - The tab labels are ready to be renamed: "Key Subject Matter" → "Agenda" and
-  "Keynote Speakers" → "Speakers". The section IDs are already `#agenda` and
+  "Speakers" (done). The section IDs are already `#agenda` and
   `#speakers`, so only the visible link text needs to change (nav, mobile menu,
   and the section eyebrows).

@@ -104,7 +104,7 @@ Adrian is a member of various industry bodies, including the Academy of Internat
   },
   {
     name:    "Brandon Zietsman",
-    role:    "Chief Executive Officer",
+    role:    "Executive Chairman",
     company: "PortfolioMetrix",
     photo:   "brandon-zietsman.webp",
     bio:     `Brandon is a key figure in financial services with a strong track record in innovation and strategic leadership. He began his career at Investec, before leading product development at RMB Fund Managers. After a two-year tenure at an equity derivative boutique, he returned to RMB Asset Management as head of quantitative research and later served as CEO of RMB Unit Trusts. In 2008, he joined Barclays, leading Absa Wealth's Investment and Product Office.
@@ -116,7 +116,7 @@ Brandon holds the following qualifications: MSc (Global Challenges) (Dist.), BCo
   {
     name:    "Etienne Roux",
     role:    "Property Portfolio Manager & Equity Analyst",
-    company: "Truffle",
+    company: "Truffle Asset Management",
     photo:   "etienne-roux.webp",
     bio:     `Etienne joined Truffle in 2013 as an Equity Analyst and currently covers various sectors, including Property, Healthcare, Diversified Industrials, Gold, and various mid-caps. Etienne also has portfolio management responsibilities for Truffle property mandates.
 
@@ -267,7 +267,7 @@ Prior to joining PSG, he was co-head of the Customised Solutions Boutique at OMI
   {
     name:    "Kyle Hulett",
     role:    "Co-Head: Investments",
-    company: "Sygnia Asset Management",
+    company: "Sygnia Group",
     photo:   "kyle-hulett.webp",
     bio:     `Kyle is Co-Head of Investments at Sygnia Asset Management, a specialist multi-manager with around R460.8 billion in assets under management and administration. Sygnia is known as a disruptor in the South African financial industry, and its team of twenty investment professionals have steered the institutional flagship Sygnia Signature 70 Portfolio to a top-quartile ranking over multiple time periods in the Alexander Forbes Multi-Manager Survey, and the retail flagship Skeleton Balanced 70 to similar success in the Collective Investment Scheme universe.
 

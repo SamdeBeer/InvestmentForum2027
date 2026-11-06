@@ -136,7 +136,7 @@ Holger holds a master's degree in economics from Justus-Liebig University Giesse
   {
     name:    "Iain Power",
     role:    "Chief Investment Officer and Director",
-    company: "Truffle",
+    company: "Truffle Asset Management",
     photo:   "iain-power.webp",
     bio:     `Iain leads the investment team and plays a key role in the strategic direction of the business. He has been part of the Truffle team since 2010, when he joined to work with the founders as a senior portfolio manager.
 

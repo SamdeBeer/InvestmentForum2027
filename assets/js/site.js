@@ -196,6 +196,122 @@ Born and raised in Ireland, and having worked in London for three years before j
 Rob is a graduate of UCT, during which time he won the national Financial Mail reader stock picking competition. He then worked as a portfolio manager for Momentum Life, before leaving to co-lead a private equity deal and subsequently buying into Rezco and returning to investment management.
 
 Rob's lifelong fascination with companies, markets and investing has led to refined investing principles that he has infused into the Rezco team, to create a culture of innovative investment thinking.`
+  },
+  {
+    name:    "Ashveena Teeluckdharry-Khusial",
+    role:    "Chief Investment Officer",
+    company: "Hollard Investments",
+    photo:   "ashveena-teeluckdharry-khusial.webp",
+    bio:     `Ashveena is the Chief Investment Officer at Hollard Investments, where she leads the management of the Hollard BCI Unit Trust Funds. She oversees the investment process, including asset allocation, manager research and selection, portfolio construction, monitoring, and reporting. Ashveena chairs the HIM Investment Committee and serves on the Investment Sub-Committee for the Hollard Employees' Pension and Provident Fund.
+
+With 18 years of experience in asset management, Ashveena began her career at PPS Investments before joining Liberty, where she managed the Liberty shareholder investment portfolio. She has been with Hollard Investments for a decade, playing a key role in its growth and success.`
+  },
+  {
+    name:    "André Steyn",
+    role:    "Chief Executive Officer & Chief Investment Officer",
+    company: "Steyn Capital Management",
+    photo:   "andre-steyn.webp",
+    bio:     `André started his investment management career in 2002 as a dedicated short selling analyst at Ziff Brothers Investments, a multi-billion dollar hedge fund, where he employed forensic accounting analysis to identify short sale candidates in markets outside of the US. He then joined Temujin Fund Management UK as CEO & Partner, where he was responsible for non-US investments.
+
+André founded Steyn Capital Management in 2009, where he has been CIO and portfolio manager since inception. Steyn Capital has won 14 Hedgenews Africa awards over the 17 full years since inception.`
+  },
+  {
+    name:    "Brian Arcese",
+    role:    "Portfolio Manager",
+    company: "Foord Asset Management",
+    photo:   "brian-arcese.webp",
+    bio:     `Brian is a multiple-counsellor portfolio manager on the Foord International and Foord Global Equity Funds. He is also the primary analyst for the global healthcare sector.
+
+He holds a Bachelor of Arts in Economics from Middlebury College, Vermont, and is a CFA charter holder. Brian joined Foord in 2014 and has over 21 years' experience in the financial services industry.`
+  },
+  {
+    name:    "Chris Reddy",
+    role:    "Portfolio Manager & Trader",
+    company: "All Weather Capital",
+    photo:   "chris-reddy.webp",
+    bio:     `Chris is a Portfolio Manager and Trader at All Weather Capital, covering both Hedge Funds and Property. He has over 20 years of financial markets experience spanning equities, fixed income, corporate finance and strategy consulting.
+
+He holds the following qualifications: BBusSc (Actuarial Science), CFA.`
+  },
+  {
+    name:    "Conlias Mancuveni",
+    role:    "Head: Implemented Portfolio Solutions",
+    company: "Hollard Investments",
+    photo:   "conlias-mancuveni.webp",
+    bio:     `Conlias heads the implemented portfolio solutions capability, which offers advice and bespoke portfolio solutions to institutional clients. He also co-manages the Hollard Prime unit trust range, with oversight and research responsibilities for asset allocation, manager research and portfolio construction.
+
+Conlias has spent time in Australia, where he was a Senior Investment Consultant for National Australia Bank, managing discretionary multi-asset portfolios and providing consulting services to institutional and high-net-worth clients. He first joined Hollard Investments in March 2013 from PPS Investments, where he was an Investment Analyst responsible for manager research and quantitative modelling. He has over 15 years' experience in investment management.
+
+FRM, MSc, MBA.`
+  },
+  {
+    name:    "Jarred Houston",
+    role:    "Portfolio Manager & Equity Analyst",
+    company: "All Weather Capital",
+    photo:   "jarred-houston.webp",
+    bio:     `Jarred joined All Weather Capital in March 2020, initially as an Equity Analyst covering Financials, Property, Hold Co's and TMT. He currently fulfils the role of Portfolio Manager (Hedge and Best Ideas) and Equity Analyst.
+
+Jarred started his career in financial services in 2012 as an insurance and technical analyst. He then moved into discretionary fund management in 2014, before joining Johannesburg-based hedge fund Acanthin in 2016 as an equity analyst.
+
+He holds the following qualifications: BCom Hons (Economics), PGDip (Financial Planning Law), CFA, CFP, FRM.`
+  },
+  {
+    name:    "John Gilchrist",
+    role:    "Chief Investment Officer",
+    company: "PSG Asset Management",
+    photo:   "john-gilchrist.webp",
+    bio:     `John has been with PSG since December 2018, and is a fund manager in addition to fulfilling his role as CIO.
+
+Prior to joining PSG, he was co-head of the Customised Solutions Boutique at OMIGSA, where he developed and managed a number of multi-asset low risk, equity and hedge fund offerings.`
+  },
+  {
+    name:    "Kyle Hulett",
+    role:    "Co-Head: Investments",
+    company: "Sygnia Asset Management",
+    photo:   "kyle-hulett.webp",
+    bio:     `Kyle is Co-Head of Investments at Sygnia Asset Management, a specialist multi-manager with around R460.8 billion in assets under management and administration. Sygnia is known as a disruptor in the South African financial industry, and its team of twenty investment professionals have steered the institutional flagship Sygnia Signature 70 Portfolio to a top-quartile ranking over multiple time periods in the Alexander Forbes Multi-Manager Survey, and the retail flagship Skeleton Balanced 70 to similar success in the Collective Investment Scheme universe.
+
+Prior to joining Sygnia in 2018, Kyle was deputy CIO at Argon Asset Management, where he was an award-winning absolute return manager. Before joining Argon in 2011, he was a portfolio manager at Cadiz Asset Management, Head of Equity Research at Prescient Securities and Head of Alternative Investments at Old Mutual SYmmETRY.
+
+Kyle is a Fellow of the Faculty of Actuaries, a Fellow Member of the Actuarial Society of South Africa and a CFA charter holder.`
+  },
+  {
+    name:    "Linda Eedes",
+    role:    "Investment Executive",
+    company: "Foord Asset Management",
+    photo:   "linda-eedes.webp",
+    bio:     `Linda joined Foord in 2022, bringing a wealth of knowledge and experience to the team. She started her investment career as a portfolio manager with Nedcor Investment Bank Asset Management (NIBAM). Her global experience includes seven years in London with bond manager PIMCO, where she represented the European investment team.
+
+She has spent more than 20 years in the industry with roles in research, portfolio management, product development, strategy, and leadership. Linda holds a Bachelor of Commerce (Honours) degree from UCT and is a CFA charter holder.`
+  },
+  {
+    name:    "Marc Beckenstrater",
+    role:    "Fund Manager",
+    company: "PSG Asset Management",
+    photo:   "marc-beckenstrater.webp",
+    bio:     `Marc joined PSG in May 2025 as a fund manager.
+
+Prior to joining PSG, Marc held various roles at firms both in South Africa and abroad, including as analyst, portfolio manager, head of research and chief investment officer.`
+  },
+  {
+    name:    "Rashaad Tayob",
+    role:    "Portfolio Manager",
+    company: "Foord Asset Management",
+    photo:   "rashaad-tayob.webp",
+    bio:     `Rashaad worked at Prescient Investment Management for seven years, rising to the position of senior portfolio manager. He joined Aeon Investment Management in January 2009 as a portfolio manager and director, where he launched and managed a range of multi-asset products.
+
+Rashaad moved to ABAX in April 2012 in order to expand their capabilities into the fixed income and multi-asset space. He left ABAX to take a short sabbatical, before joining Foord in 2022.
+
+Rashaad holds a Bachelor of Business Science (Honours) (Finance) and is a CFA charter holder.`
+  },
+  {
+    name:    "Reza Fakie",
+    role:    "Portfolio Manager",
+    company: "Old Mutual Investment Group",
+    photo:   "reza-fakie.webp",
+    bio:     `Reza is a Portfolio Manager responsible for overseeing both global and local systematic investment strategies. His role also encompasses quantitative research, which is critical to the performance and advancement of the Equity and Multi-Asset investment team's systematic capabilities.
+
+Appointed to his current position in 2022, Reza brings a breadth of industry experience and strong technical expertise, making him a valuable contributor to the team's success. He holds a BBusSc Actuarial Science degree in Quantitative Finance and is a CFA charter holder.`
   }
 ];
 
@@ -488,9 +604,14 @@ Rob's lifelong fascination with companies, markets and investing has led to refi
 
   /* Choose a column count that divides the line-up evenly where possible, so
      no single card is left orphaned on its own row. Six goes 3 x 2 rather
-     than 5 + 1; eight goes 4 x 2; ten goes 5 x 2. */
+     than 5 + 1; eight goes 4 x 2; ten goes 5 x 2.
+     Past a dozen or so the even-division rule starts working against us — 27
+     divides by 3, but three columns across a 1280px page makes each card
+     enormous. So above twelve we hold at five (four if that would orphan a
+     single card) and accept a short final row. */
   const columnsFor = n => {
     if (n <= 5) return Math.max(n, 1);
+    if (n > 12) return n % 5 === 1 ? 4 : 5;
     for (const c of [5, 4, 3]) if (n % c === 0) return c;
     return 4;
   };

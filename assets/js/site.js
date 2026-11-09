@@ -40,7 +40,7 @@ She has enjoyed positions as a presenter both at Carte Blanche and currently has
 Outside of her broadcasting career, Annika is a Fellow of the prestigious USA State Department International Leadership Programme for emerging Foreign Leaders, as well as a Fellow of Duke University NC. She has served on the Executive Committee of Parliament's Press Gallery Association. Beyond these roles, Annika regularly hosts and moderates discussions in the corporate and NGO sectors and trains business leaders on how to interface effectively with the media.`
   },
   {
-    name:    "Prof. Anton du Plessis",
+    name:    "Anton du Plessis",
     role:    "Chief Executive Officer",
     company: "Business Against Crime South Africa",
     photo:   "anton-du-plessis.webp",

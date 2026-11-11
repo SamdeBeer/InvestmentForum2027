@@ -312,6 +312,26 @@ Rashaad holds a Bachelor of Business Science (Honours) (Finance) and is a CFA ch
     bio:     `Reza is a Portfolio Manager responsible for overseeing both global and local systematic investment strategies. His role also encompasses quantitative research, which is critical to the performance and advancement of the Equity and Multi-Asset investment team's systematic capabilities.
 
 Appointed to his current position in 2022, Reza brings a breadth of industry experience and strong technical expertise, making him a valuable contributor to the team's success. He holds a BBusSc Actuarial Science degree in Quantitative Finance and is a CFA charter holder.`
+  },
+  {
+    name:    "Christo de Wit",
+    role:    "Country Manager: South Africa",
+    company: "Luno",
+    photo:   "christo-de-wit.webp",
+    bio:     `Christo is Luno's Country Manager for South Africa, a role he has held for over three years. His experience spans multiple industries, including media, fintech, and e-commerce, across both South Africa and Southeast Asia, with companies like Media24, Rocket Internet and TrueMoney.
+
+Christo is a strong advocate for blockchain technology and its potential to transform the global financial system for the better and drive financial inclusion.`
+  },
+  {
+    name:    "Hymne Landman",
+    role:    "Chief Executive Officer",
+    company: "Momentum Wealth",
+    photo:   "hymne-landman.webp",
+    bio:     `Hymne is the Chief Executive Officer of Momentum Wealth and Momentum Wealth International. She joined Momentum Metropolitan in January 2005, when she changed careers from re-insurance to investments. She has filled various roles at Momentum and RMB Investment Bank, before being appointed in her current role in July 2018.
+
+Hymne has extensive knowledge of the retail investments market, with a particular passion for the linked investment services provider industry and the role of platforms in enabling best financial advice for clients.
+
+Hymne holds a BCom Hons (Actuarial Science, cum laude) and qualified as an Actuary through the UK Institute of Actuaries in 2009.`
   }
 ];
 

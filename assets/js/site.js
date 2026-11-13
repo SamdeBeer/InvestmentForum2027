@@ -323,17 +323,6 @@ Appointed to his current position in 2022, Reza brings a breadth of industry exp
 Christo is a strong advocate for blockchain technology and its potential to transform the global financial system for the better and drive financial inclusion.`
   },
   {
-    name:    "Hymne Landman",
-    role:    "Chief Executive Officer",
-    company: "Momentum Wealth",
-    photo:   "hymne-landman.webp",
-    bio:     `Hymne is the Chief Executive Officer of Momentum Wealth and Momentum Wealth International. She joined Momentum Metropolitan in January 2005, when she changed careers from re-insurance to investments. She has filled various roles at Momentum and RMB Investment Bank, before being appointed in her current role in July 2018.
-
-Hymne has extensive knowledge of the retail investments market, with a particular passion for the linked investment services provider industry and the role of platforms in enabling best financial advice for clients.
-
-Hymne holds a BCom Hons (Actuarial Science, cum laude) and qualified as an Actuary through the UK Institute of Actuaries in 2009.`
-  },
-  {
     name:    "Andy Nielsen",
     role:    "Managing Director, Head of International Product Strategy",
     company: "BlackRock",

@@ -332,6 +332,35 @@ Christo is a strong advocate for blockchain technology and its potential to tran
 Hymne has extensive knowledge of the retail investments market, with a particular passion for the linked investment services provider industry and the role of platforms in enabling best financial advice for clients.
 
 Hymne holds a BCom Hons (Actuarial Science, cum laude) and qualified as an Actuary through the UK Institute of Actuaries in 2009.`
+  },
+  {
+    name:    "Andy Nielsen",
+    role:    "Managing Director, Head of International Product Strategy",
+    company: "BlackRock",
+    photo:   "andy-nielsen.webp",
+    bio:     `Andy is Head of International Product Strategy for BlackRock's Global Allocation and GA Selects franchises. He serves as a senior commercial and investment representative of the Global Allocation team, working with retail, wealth and institutional clients globally.
+
+In addition to leading product strategy across EMEA, APAC and LATAM, Andy is also leading Global Allocation 3.0, the next phase of the franchise's global evolution. The initiative is focused on modernising client access, accelerating adoption across platforms and models, expanding global distribution, and positioning the strategy for emerging investment wrappers and delivery channels.
+
+Since joining BlackRock in 2010, Andy has held roles spanning operations, product strategy and global distribution, and he joined the Global Allocation team in 2013. He holds a BA in Communication and Media Studies from Goucher College (cum laude) and a Master's in Management from Durham University.`
+  },
+  {
+    name:    "Peter Kempen",
+    role:    "Head of Distribution",
+    company: "Coronation Fund Managers",
+    photo:   "peter-kempen.webp",
+    bio:     `Peter joined Coronation in 2011 as Head of Retail Distribution, and is a member of the management committee for the Personal Investment unit. His key responsibility is to ensure exceptional client service through the dissemination of relevant information to the investment advice community.
+
+He holds the following qualifications: BCom (Hons) Investment Management, CFP.`
+  },
+  {
+    name:    "Pieter Koekemoer",
+    role:    "Head of Personal Investments",
+    company: "Coronation Fund Managers",
+    photo:   "pieter-koekemoer.webp",
+    bio:     `Pieter is Head of Personal Investments at Coronation. His key responsibility is to ensure exceptional client service through a combination of appropriate product, relevant market information and good client outcomes.
+
+He holds the following qualifications: CA (SA), CFA.`
   }
 ];
 

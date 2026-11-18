@@ -260,10 +260,39 @@ h2.section-title{
   letter-spacing:.3em; text-transform:uppercase;
   color:rgba(255,255,255,.78);
   text-shadow:0 2px 18px rgba(6,9,34,.8);
-  margin:0 auto 36px; max-width:74ch;
+  margin:0 auto 26px; max-width:74ch;
   opacity:0; animation:heroIn 1.3s var(--ease) .75s forwards;
 }
-.hero-actions{ opacity:0; animation:heroIn 1.3s var(--ease) .95s forwards; }
+
+/* the dates again, large, between the strapline and the CTA. The fixed bar at
+   the very top keeps them in view once the hero has scrolled away. */
+.hero-dates{
+  display:flex; align-items:stretch; justify-content:center;
+  gap:clamp(22px,3.6vw,52px);
+  margin:0 auto 32px;
+  opacity:0; animation:heroIn 1.3s var(--ease) .85s forwards;
+}
+.hero-date{ display:flex; flex-direction:column; align-items:center; gap:8px; }
+.hd-city{
+  display:inline-flex; align-items:center; gap:7px;
+  font-family:var(--f-mono);
+  font-size:clamp(9px,1.05vw,11px);
+  letter-spacing:.26em; text-transform:uppercase;
+  color:rgba(255,255,255,.72);
+  text-shadow:0 2px 18px rgba(6,9,34,.8);
+}
+.hd-city .pin{ width:12px; height:12px; flex:none; color:var(--coral); }
+.hd-when{
+  font-size:clamp(20px,2.7vw,31px); font-weight:700;
+  line-height:1.04; letter-spacing:-.01em;
+  color:var(--cyan);
+  text-shadow:0 2px 4px rgba(6,9,34,.9), 0 10px 34px rgba(6,9,34,.75);
+}
+.hd-rule{
+  width:1px; align-self:stretch;
+  background:linear-gradient(180deg,rgba(3,237,250,0),rgba(3,237,250,.38),rgba(3,237,250,0));
+}
+.hero-actions{ opacity:0; animation:heroIn 1.3s var(--ease) 1.05s forwards; }
 
 /* brought to you by TCE — the .hero-foot wrapper shares .wrap's max-width and
    padding, so the lockup's left edge matches the header logo exactly */
@@ -799,7 +828,11 @@ section{ position:relative; }
   .brand img{ height:42px; }
   .nav.solid .brand img{ height:38px; }
   .hero-logo{ width:min(520px,84vw); max-height:26svh; margin-bottom:24px; }
-  .hero-sub{ letter-spacing:.22em; line-height:2; margin-bottom:28px; }
+  .hero-sub{ letter-spacing:.22em; line-height:2; margin-bottom:22px; }
+  /* two cities side by side get too cramped to read on a phone */
+  .hero-dates{ flex-direction:column; gap:14px; margin-bottom:26px; }
+  .hd-rule{ width:72px; height:1px; align-self:center;
+    background:linear-gradient(90deg,rgba(3,237,250,0),rgba(3,237,250,.38),rgba(3,237,250,0)); }
   .hero-dots{ bottom:52px; }
   .cta-lg{ padding:16px 30px; }
   /* keep the TCE lockup clear of the dots and the scroll hint */
@@ -832,7 +865,7 @@ section{ position:relative; }
   .rv{ opacity:1; transform:none; }
   .hero-slide.on,.sec-slide.on{ animation:none; transform:scale(1.04); }
   .ticker-track{ animation:none; }
-  .hero-logo,.hero-sub,.hero-actions{ opacity:1; }
+  .hero-logo,.hero-sub,.hero-dates,.hero-actions{ opacity:1; }
 }
 
 /* focus visibility */

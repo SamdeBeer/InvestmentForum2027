@@ -71,6 +71,9 @@ h2.section-title{
 /* =========================================================
    TOP DATE BAR
    ========================================================= */
+/* The hero carries the dates at full size, so the bar stays tucked above the
+   viewport until the hero has scrolled away — then it slides in and the nav
+   drops by its height to make room. `body.bar-in` drives both. */
 .datebar{
   position:fixed; inset:0 0 auto 0; z-index:60;
   height:var(--bar-h);
@@ -79,7 +82,11 @@ h2.section-title{
   border-bottom:1px solid rgba(3,237,250,.16);
   font-family:var(--f-mono);
   font-size:12px; letter-spacing:.12em; text-transform:uppercase;
+  transform:translateY(-101%);
+  transition:transform .5s var(--ease);
+  will-change:transform;
 }
+body.bar-in .datebar{ transform:none; }
 .datebar-inner{ display:flex; align-items:center; gap:18px; white-space:nowrap; }
 .datebar .pin{ width:13px; height:13px; flex:none; color:var(--coral); }
 .datebar .city{ display:inline-flex; align-items:center; gap:8px; }
@@ -90,14 +97,16 @@ h2.section-title{
    NAV
    ========================================================= */
 .nav{
-  position:fixed; inset:var(--bar-h) 0 auto 0; z-index:55;
+  position:fixed; inset:0 0 auto 0; z-index:55;
   height:var(--nav-h);
   display:flex; align-items:center;
   background:rgba(10,16,54,0);
   backdrop-filter:blur(0px);
   border-bottom:1px solid transparent;
-  transition:background .5s var(--ease), backdrop-filter .5s var(--ease), border-color .5s var(--ease);
+  transition:background .5s var(--ease), backdrop-filter .5s var(--ease),
+             border-color .5s var(--ease), transform .5s var(--ease);
 }
+body.bar-in .nav{ transform:translateY(var(--bar-h)); }
 .nav.solid{
   background:rgba(10,16,54,.88);
   backdrop-filter:blur(14px) saturate(140%);
@@ -178,15 +187,17 @@ h2.section-title{
 .burger.open span::after{ transform:translateY(-7px) rotate(-45deg); }
 
 .mobile-menu{
-  position:fixed; inset:calc(var(--bar-h) + var(--nav-h)) 0 0 0; z-index:54;
+  position:fixed; inset:var(--nav-h) 0 0 0; z-index:54;
   background:rgba(6,9,34,.97);
   backdrop-filter:blur(20px);
   display:flex; flex-direction:column; justify-content:center; gap:6px;
   padding:0 32px 60px;
+  /* the drawer's own transform drives its open/close, so the bar shifts it by top */
   transform:translateY(-14px); opacity:0; pointer-events:none;
   transition:opacity .38s var(--ease), transform .38s var(--ease);
 }
 .mobile-menu.open{ opacity:1; transform:none; pointer-events:auto; }
+body.bar-in .mobile-menu{ top:calc(var(--bar-h) + var(--nav-h)); }
 .mobile-menu a{
   font-size:clamp(1.6rem,7vw,2.4rem); font-weight:800; letter-spacing:-.02em;
   padding:12px 0; border-bottom:1px solid rgba(255,255,255,.08);
@@ -201,7 +212,8 @@ h2.section-title{
   position:relative;
   min-height:100svh;
   display:flex; align-items:center; justify-content:center;
-  padding:calc(var(--bar-h) + var(--nav-h) + 28px) 0 150px;
+  /* no date bar over the hero, so only the nav needs clearing */
+  padding:calc(var(--nav-h) + 28px) 0 150px;
   overflow:hidden;
   isolation:isolate;
 }

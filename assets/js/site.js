@@ -494,9 +494,24 @@ He holds the following qualifications: CA (SA), CFA.`
   const links = $$("#navLinks a");
   const sections = links.map(a => $(a.getAttribute("href"))).filter(Boolean);
 
+  /* The hero shows the dates at full size, so the fixed bar stays hidden until
+     the hero is nearly gone, then slides in. A small hysteresis gap stops it
+     flickering when someone parks the page right on the threshold. */
+  const heroSec = $("#landing");
+  let barIn = false;
+  function updateBar(y) {
+    const edge = heroSec ? heroSec.offsetHeight - 140 : 420;
+    const want = y > (barIn ? edge - 60 : edge);
+    if (want !== barIn) {
+      barIn = want;
+      document.body.classList.toggle("bar-in", want);
+    }
+  }
+
   function onScroll() {
     const y = window.scrollY;
     nav.classList.toggle("solid", y > 60);
+    updateBar(y);
 
     const h = document.documentElement.scrollHeight - window.innerHeight;
     progress.style.width = (h > 0 ? (y / h) * 100 : 0) + "%";

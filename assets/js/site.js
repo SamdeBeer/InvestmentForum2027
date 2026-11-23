@@ -350,6 +350,110 @@ He holds the following qualifications: BCom (Hons) Investment Management, CFP.`
     bio:     `Pieter is Head of Personal Investments at Coronation. His key responsibility is to ensure exceptional client service through a combination of appropriate product, relevant market information and good client outcomes.
 
 He holds the following qualifications: CA (SA), CFA.`
+  },
+  {
+    name:    "Abdul Davids",
+    role:    "Head of SA Research",
+    company: "Camissa Asset Management",
+    photo:   "abdul-davids.webp",
+    bio:     `Abdul joined Camissa Asset Management in 2008 and serves as portfolio manager. He leads the firm's research function and manages its Shariah-compliant retail unit trusts and institutional client portfolios.
+
+Prior to joining Camissa, he spent 10 years at Allan Gray as a senior investment analyst and portfolio manager, where he developed research capabilities, managed client portfolios and mentored analysts. He graduated from the University of Cape Town in 1996.`
+  },
+  {
+    name:    "Bastian Teichgreeber",
+    role:    "Chief Investment Officer",
+    company: "Prescient Investment Management",
+    photo:   "bastian-teichgreeber.webp",
+    bio:     `Bastian became Chief Investment Officer at Prescient Investment Management in 2021, capping an eight-year journey with the organisation. He began in August 2015 as a Portfolio Manager, navigating diverse multi-asset strategies, before advancing to Head of Asset Allocation in 2018 and Head of Investment Research in 2019.
+
+Throughout his tenure, Bastian has been instrumental in developing actively managed investment strategies spanning diverse asset classes. His expertise is particularly noteworthy in the meticulous management of optimal fixed-income allocations within multi-asset class funds.
+
+Qualifications: BA (Honours) in Banking and Financial Management, Ravensburg University of Cooperative Education, Germany; MSc in Banking and Financial Management, University of Liechtenstein.`
+  },
+  {
+    name:    "Gavin Wood",
+    role:    "Chief Investment Officer",
+    company: "Camissa Asset Management",
+    photo:   "gavin-wood.webp",
+    bio:     `Gavin founded Camissa Asset Management in 2002 and serves as chief investment officer and executive director. He has led the investment team since inception, directing the firm's investment research and portfolio construction processes, and manages portfolios across equity and multi-asset strategies.
+
+Previously, he was an investment analyst at Coronation Fund Managers.`
+  },
+  {
+    name:    "Henk Kotze",
+    role:    "Head of Cash and Income Funds",
+    company: "Prescient Investment Management",
+    photo:   "henk-kotze.webp",
+    bio:     `Henk is the Head of Cash and Income Funds at Prescient Investment Management, bringing over 15 years of experience in the financial services industry. He joined Prescient in June 2018 as a Fixed Income Portfolio Manager, managing and overseeing interest-bearing funds alongside the team, and was appointed Head of Cash and Income Funds in 2021. In that role he is responsible for every portfolio in the category, including the flagship Prescient Income Provider strategy.
+
+Before joining Prescient, Henk served as a hedge fund manager at Green Oak Capital, supporting fund managers in building processes to strengthen portfolio administration and risk management.
+
+Outside work, Henk fly-fishes and plays golf, and is a passionate winemaker — he and two close friends have brought three distinct wines to the global market since 2014.
+
+Qualifications: BA in Value and Policy Studies, Stellenbosch University; LLB, University of South Africa.`
+  },
+  {
+    name:    "Imelda Watkins",
+    role:    "Head of Research",
+    company: "Hollard Investments",
+    photo:   "imelda-watkins.webp",
+    bio:     `Imelda is the Head of Research at Hollard Investment Management, where she leads the centralised research function covering manager research, responsible investment, and broader investment research.
+
+She brings over 20 years of experience in manager research and investment management, including portfolio management specialising in alternative investments.`
+  },
+  {
+    name:    "Jean-Pierre Matthews",
+    role:    "Head of Product",
+    company: "Matrix Investments",
+    photo:   "jean-pierre-matthews.webp",
+    bio:     `Jean-Pierre joined Matrix in 2019 as Head of Product, responsible for the development and distribution of the Matrix product range. He is also a Key Individual, Representative and member of the Investment Committee at Matrix.
+
+JP started his career in financial markets in 1996 as a fixed income analyst and trader. He has been a long-standing proponent of the hedge fund industry in South Africa and was involved in the establishment of various alternative asset management and securities trading businesses over the years. Before joining Matrix, he was a portfolio manager and head of business at a large institutional alternative asset manager.
+
+He has a degree in actuarial science and is a CFP and CFA charter holder.`
+  },
+  {
+    name:    "Martiens Barnard",
+    role:    "Head of Technical Marketing",
+    company: "Momentum Wealth",
+    photo:   "martiens-barnard.webp",
+    bio:     `Martiens is the Head of Technical Marketing at Momentum Wealth and has been with the company since 2013.
+
+Before joining Momentum Wealth, Martiens worked in the banking and life insurance industries where, in both cases, he had a strong investment focus. He is an actuary by profession and is the author of Secure in Risk, a whitepaper exploring retirement income.`
+  },
+  {
+    name:    "Matthew Pouncett",
+    role:    "Portfolio Manager & Financial Analyst",
+    company: "Laurium Capital",
+    photo:   "matthew-pouncett.webp",
+    bio:     `Matthew joined Laurium Capital in 2013 and was promoted to Portfolio Manager of the Laurium Hedge Funds in 2019.
+
+Prior to joining Laurium, he worked in Deloitte's Corporate Finance Transaction Services team performing buy-side due diligence reviews. After completing his articles at Deloitte's Johannesburg office, he was seconded to Deloitte San Francisco.
+
+Matthew has a Bachelor of Commerce (Honours) in Accounting from the University of Johannesburg, and is a CA (SA) and CFA charter holder.`
+  },
+  {
+    name:    "Melanie Stockigt",
+    role:    "Investment Analyst & Portfolio Manager",
+    company: "Granate Asset Management",
+    photo:   "melanie-stockigt.webp",
+    bio:     `Melanie started her career in 1997 at Standard Corporate & Merchant Bank. From 2002 to 2005 she was at Coronation Fund Managers, where she was head of the fixed interest team, managing fixed interest institutional and retail portfolios as well as the Coronation Strategic Income Fund.
+
+Melanie was a founding member of Tantalum Capital, where for 15 years she was Head of Fixed Interest and the portfolio manager for the fixed income and multi-asset portfolios. She joined Granate from Laurium Capital, where she was a portfolio manager focusing on fixed income and multi-asset portfolios.
+
+Qualifications: BCom (Hons) (Financial Management), MCom (Financial Management), CIMA.`
+  },
+  {
+    name:    "Rupert Hare",
+    role:    "Head of Multi-Asset",
+    company: "Prescient Investment Management",
+    photo:   "rupert-hare.webp",
+    bio:     `Rupert is Head of Multi-Asset Strategies at Prescient. With an extensive background in the hedge fund space gained in London, he joined Prescient in 2018 as a quantitative analyst.
+
+He is Portfolio Manager of the Prescient Balanced, Prescient Defensive and Prescient Global Balanced Funds, and steers the direction of all Multi-Asset strategies. His leadership extends beyond day-to-day operations to oversight of ongoing quantitative research projects designed to strengthen Prescient's investment offering.
+
+Qualifications: MSc in Investment Management, University of London; BCom (Hons) in Financial Analysis and Portfolio Management, UCT. CFA and CAIA charter holder.`
   }
 ];
 
@@ -660,15 +764,20 @@ He holds the following qualifications: CA (SA), CFA.`
      than 5 + 1; eight goes 4 x 2; ten goes 5 x 2.
      Past a dozen or so the even-division rule starts working against us — 27
      divides by 3, but three columns across a 1280px page makes each card
-     enormous. So above twelve we hold at five (four if that would orphan a
-     single card) and accept a short final row. */
+     enormous. So above twelve we hold at five, dropping to four only when that
+     avoids stranding a single card, and accept a short final row. */
   const columnsFor = n => {
     if (n <= 5) return Math.max(n, 1);
-    if (n > 12) return n % 5 === 1 ? 4 : 5;
+    if (n > 12) return (n % 5 === 1 && n % 4 !== 1) ? 4 : 5;
     for (const c of [5, 4, 3]) if (n % c === 0) return c;
     return 4;
   };
-  grid.style.setProperty("--cols", columnsFor(ordered.length));
+  const cols = columnsFor(ordered.length);
+  grid.style.setProperty("--cols", cols);
+  /* Some counts strand one card whichever column count we pick (41 leaves a
+     remainder of one on both four and five). Centre it rather than leaving it
+     hanging off the left edge. */
+  const orphan = ordered.length % cols === 1 ? Math.ceil(cols / 2) : 0;
 
   ordered.forEach((sp, i) => {
     // { tba: true } renders a muted, non-clickable "to be announced" card
@@ -697,6 +806,7 @@ He holds the following qualifications: CA (SA), CFA.`
         <span class="nm">${sp.name}</span>
         <span class="co">${[sp.role, sp.company].filter(Boolean).join(", ")}</span>
       </span>`;
+    if (orphan && i === ordered.length - 1) btn.style.gridColumn = String(orphan);
     btn.addEventListener("click", () => openLB(i));
     grid.appendChild(btn);
   });

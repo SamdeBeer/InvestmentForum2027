@@ -381,19 +381,6 @@ Qualifications: BA (Honours) in Banking and Financial Management, Ravensburg Uni
 Previously, he was an investment analyst at Coronation Fund Managers.`
   },
   {
-    name:    "Henk Kotze",
-    role:    "Head of Cash and Income Funds",
-    company: "Prescient Investment Management",
-    photo:   "henk-kotze.webp",
-    bio:     `Henk is the Head of Cash and Income Funds at Prescient Investment Management, bringing over 15 years of experience in the financial services industry. He joined Prescient in June 2018 as a Fixed Income Portfolio Manager, managing and overseeing interest-bearing funds alongside the team, and was appointed Head of Cash and Income Funds in 2021. In that role he is responsible for every portfolio in the category, including the flagship Prescient Income Provider strategy.
-
-Before joining Prescient, Henk served as a hedge fund manager at Green Oak Capital, supporting fund managers in building processes to strengthen portfolio administration and risk management.
-
-Outside work, Henk fly-fishes and plays golf, and is a passionate winemaker — he and two close friends have brought three distinct wines to the global market since 2014.
-
-Qualifications: BA in Value and Policy Studies, Stellenbosch University; LLB, University of South Africa.`
-  },
-  {
     name:    "Imelda Watkins",
     role:    "Head of Research",
     company: "Hollard Investments",
@@ -454,6 +441,17 @@ Qualifications: BCom (Hons) (Financial Management), MCom (Financial Management),
 He is Portfolio Manager of the Prescient Balanced, Prescient Defensive and Prescient Global Balanced Funds, and steers the direction of all Multi-Asset strategies. His leadership extends beyond day-to-day operations to oversight of ongoing quantitative research projects designed to strengthen Prescient's investment offering.
 
 Qualifications: MSc in Investment Management, University of London; BCom (Hons) in Financial Analysis and Portfolio Management, UCT. CFA and CAIA charter holder.`
+  },
+  {
+    name:    "Dawie de Villiers",
+    role:    "Group Chief Executive",
+    company: "Alexforbes",
+    photo:   "dawie-de-villiers.webp",
+    bio:     `Dawie has been Group Chief Executive of Alexforbes since 2018 and has more than three decades of experience across financial services, retirement, employee benefits and investment management.
+
+Prior to joining Alexforbes, he spent 25 years at Sanlam, holding several senior executive positions including Chief Executive Officer of Sanlam Employee Benefits.
+
+An actuary by training, Dawie is a Fellow of the Actuarial Society of South Africa, holds a BSc in Actuarial Science and completed the Advanced Management Programme at INSEAD.`
   }
 ];
 

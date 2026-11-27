@@ -452,6 +452,62 @@ Qualifications: MSc in Investment Management, University of London; BCom (Hons) 
 Prior to joining Alexforbes, he spent 25 years at Sanlam, holding several senior executive positions including Chief Executive Officer of Sanlam Employee Benefits.
 
 An actuary by training, Dawie is a Fellow of the Actuarial Society of South Africa, holds a BSc in Actuarial Science and completed the Advanced Management Programme at INSEAD.`
+  },
+  {
+    name:    "Cristina Dyer",
+    role:    "Portfolio Manager",
+    company: "Evenlode",
+    photo:   "cristina-dyer.webp",
+    bio:     `Cristina is a co-Portfolio Manager on the Evenlode Global Equity strategies team and joined Evenlode in 2020. She has over 10 years' experience in analytical roles and began her career in medical sciences before moving to finance.
+
+Cristina holds a doctorate in Immunology from the University of Oxford and a first-class degree in Pharmacy from the University of Bath, and is a CFA charter holder.`
+  },
+  {
+    name:    "Gaylin Matthews",
+    role:    "Head of Private Clients",
+    company: "BetterBond",
+    photo:   "gaylin-matthews.webp",
+    bio:     `Gaylin is a banking and finance professional with more than 25 years of experience across credit, lending and financial services. Having built a career across RMB, Absa Wealth and Investec, she has developed deep expertise in structuring complex lending solutions and advising clients on strategic financing opportunities.
+
+At Investec, Gaylin held leadership roles, leading high-performing teams while maintaining a strong focus on client service, sound credit decision-making and tailored financial solutions. She has worked with business owners, entrepreneurs, C-suite individuals and private clients, helping them navigate sophisticated funding requirements and achieve their long-term financial objectives. Known for a practical, solutions-focused approach, she has earned a reputation for simplifying complex financial structures and building trusted, long-standing client relationships.
+
+Gaylin holds a Bachelor of Commerce in Economics and an Honours degree in Investment Management.`
+  },
+  {
+    name:    "Graeme Saggers",
+    role:    "Director & Head of Tax",
+    company: "Nolands",
+    photo:   "graeme-saggers.webp",
+    bio:     `Graeme is a Chartered Accountant and Chartered Tax Advisor, and holds a Master of Commerce degree in Taxation. He is the Head of Tax at Nolands, where he advises high-net-worth individuals, family offices and businesses on local and international tax structuring, with a particular focus on fiduciary and cross-border matters.
+
+Alongside his advisory work, Graeme lectures on the Tax Masters and Tax Honours programmes at the University of Cape Town and represents the University at academic tax conferences locally and abroad. He enjoys bridging academic insight with real-world application, and his practical approach and engaging style have made him a valued voice in South Africa's professional and academic tax community.`
+  },
+  {
+    name:    "Hugh Yarrow",
+    role:    "Co-founder & Portfolio Manager",
+    company: "Evenlode",
+    photo:   "hugh-yarrow.webp",
+    bio:     `Hugh is the co-founder of Evenlode and the lead Portfolio Manager of Evenlode Income, having launched the fund in October 2009. He previously managed several equity income funds at Rathbone Unit Trust Management.
+
+Hugh graduated from the University of Edinburgh with a first-class degree in Philosophy and Mathematics, and is a fellow of the Chartered Institute for Securities and Investment.`
+  },
+  {
+    name:    "Lauren Marsh",
+    role:    "Managing Director",
+    company: "Currency Partners",
+    photo:   "lauren-marsh.webp",
+    bio:     `Driven by a passion for people and a sharp eye for numbers, Lauren has worked in financial services for nearly two decades. She started out at Sable International in 2007, driving business development in FX, before spending eight years at Bidvest Bank, where she rose through the ranks to lead the Corporate and Retail Banking division for the Western Cape.
+
+She joined Currency Partners in 2018 as Sales Director, where she helped accelerate growth and sharpen the company's market edge, and has since stepped into the role of Managing Director, leading the business into its next chapter.`
+  },
+  {
+    name:    "Lisa Czepek",
+    role:    "Managing Director",
+    company: "Henley & Partners South Africa",
+    photo:   "lisa-czepek.webp",
+    bio:     `Lisa is the Managing Director at Henley & Partners South Africa. Based in Cape Town, she is responsible for operations in South Africa and for expanding into Southern Africa. Her work includes advising direct clients on residence and citizenship programmes and ensuring applications are processed diligently within the applicable regulations.
+
+Lisa has extensive knowledge of residence and citizenship acquisition processes in these markets, and her solid legal background underpins the service she provides. As a South African national who also holds Australian and Austrian citizenship, she understands both the restraints of a limiting passport and the benefits of being a global citizen. She is a member of the Investment Migration Council.`
   }
 ];
 
